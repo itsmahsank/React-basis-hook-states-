@@ -1,0 +1,73 @@
+/* Hooks.css */
+
+body {
+    background-color: #f0f4f8;
+    
+  }
+  
+ .counter-container {
+    background-color: white;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  span {
+    font-weight: bold;
+    color: black;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    display: block;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #0096ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #c1c1c1;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #007bbd;
+  }
+  
+  button:active {
+    background-color: #005f8b;
+  }
+  

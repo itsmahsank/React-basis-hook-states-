@@ -1,0 +1,841 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+#nav-btn{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    padding: 15px;
+    transition: var(--transition);
+    background: linear-gradient(81.57deg, #EE0979 29.59%, #FC5B11 94.75%);
+    color: white;
+   border-radius:4px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#nav-btn p{
+    font-weight: bold;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0);
+    height: 30px;
+    padding-top: 30px;
+}
+
+.nav a{
+
+    color: #3c375b;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+.main-container{
+   
+    background:#f3f3f1
+}
+
+.main-intro{
+    display:flex;
+    justify-content: center;
+}
+
+.main-intro >h1{
+    color:#3c375c;
+    font-size:xx-large;
+    width: 60%;
+}
+
+.content1{
+ 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+    
+    
+}
+
+.content1 #mobile-img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.content1 #watch-img{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.content2{
+ 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+
+.content2 #form-img{
+    margin-left: 50px;
+
+}
+
+.content2 #movie1-img{
+    margin-right: 50px;
+
+}
+
+
+#mobile-img{
+    height: 200px;
+    width: 300px;
+    background-image: url("/public/ZebuImages/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px
+    /public/ZebuImages
+    
+   
+}
+
+#watch-img{
+  
+    height: 200px;
+    width: 300px;
+    background-image: url("/public/ZebuImages/banner2.jpg");
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#form-img{
+    background-image: url("/public/ZebuImages/banner3.jpg");
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    
+}
+
+#movie1-img{
+    background-image: url("/public/ZebuImages/banner5.jpg");
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    
+  
+}
+
+
+.purchase-btn{
+    height: 70px;
+    width: 200px;
+    transition: var(--transition);
+    background: linear-gradient(81.57deg, #EE0979 29.59%, #FC5B11 94.75%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-cont{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px ;
+}
+
+
+.free-img{
+    height: 400px;
+    width: 700px;
+    background-image: url("/public/ZebuImages/free2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+    border-radius: 25px
+}
+.LTR-strings{
+
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    background:linear-gradient(90deg,#1688A2 12.33%,#1875CA 33.75%,#D231B1 60.02%,#DD2A4B 89.93%);
+    background-clip: text;
+    color: transparent;
+}
+
+.images-container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.images-container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+
+.image-box{
+
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: px;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-box :hover{
+   border: 5px solid red;
+
+}
+
+.images-main-container{
+    margin-bottom: 50px;
+}
+
+.ibox1{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.ibox2{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/single-product.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+.ibox3{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/watch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+.ibox4{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.ibox5{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/saas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+.ibox6{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/coming-soon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.LTR-headiing2{
+    
+    margin-top:50px ;
+    text-align: center;
+    font-size: xx-large;
+    background:linear-gradient(90deg,#1688A2 12.33%,#1875CA 33.75%,#D231B1 60.02%,#DD2A4B 89.93%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.ltrbox1{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/single-blog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+
+    
+}
+
+.ltrbox2{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/single-product-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+.LTR-box2{
+
+    background:#f3f3f1;
+   
+    
+}
+
+
+
+.LTR-box{
+
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: px;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 60PX;
+   
+
+    
+}
+
+.LTR-box :hover{
+    border: 5px solid red;
+ 
+ }
+ 
+
+.LTR-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.RTR-content{
+    background-color: black;
+    color: white;
+}
+.RTR-heading{
+   
+    text-align: center;
+    font-size: xx-large;
+    background:linear-gradient(90deg,#1688A2 12.33%,#1875CA 33.75%,#D231B1 60.02%,#DD2A4B 89.93%);
+    background-clip: text;
+    color: transparent;
+}
+
+.RTR-image-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+
+.RTR-box
+{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: px;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 60PX;
+}
+
+.RTR-box:hover{
+    border: 5px solid red;
+}
+
+.R-box{
+    height: 390px;
+    width: 390px;
+    background-image: url("/public/ZebuImages/rtl1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.feature-mian-conntent{
+    background:#f3f3f1;
+    padding-top: 50px;
+    
+   
+}
+
+.feature-heading
+{
+    text-align: center;
+    font-size: xx-large;
+    background:linear-gradient(90deg,#1688A2 12.33%,#1875CA 33.75%,#D231B1 60.02%,#DD2A4B 89.93%);
+    background-clip: text;
+    color: transparent;
+}
+
+#feature-list{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: large;
+    list-style-type: disc; 
+
+}
+
+ul li::marker {
+    color: red; /* Changes the color of the dots */
+  }
+
+
+.feature-conetent{
+padding-top: 50px;
+padding-bottom: 70px;
+
+}
+
+.logo1{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/sass.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo2{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/bootstrap.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo3{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/ajax.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo4{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/mailchimp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo5{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/rtl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo6{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/speed.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo7{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/toggle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo8{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/owl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.logo9{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/magnific.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo10{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/animate.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo11{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/fonts.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo12{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/flaticon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo13{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/html.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo14{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/css.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo15{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/code.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo16{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/responsive.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.logo17{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/effect.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo18{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/browser.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo19{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/customize.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo20{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/retina.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.logo21{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/developer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo22{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/support.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.logo23{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/doc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo24{
+    height: 60px;
+    width:60px;
+    background-image: url("/public/ZebuImages/updates.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.boxy{
+    height: 150px;
+    width: 200px;
+   text-align: center;
+   background-color: white;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logo-box{
+    height: 100px;
+    width: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fconatiner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+
+.fconatiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap:2rem;
+}
+
+
+.fconatiner3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap:2rem;
+}
+
+
+
+.fconatiner4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap:2rem;
+}
+
+
+.fconatiner5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap:2rem;
+}
+
+
+.fconatiner6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap:2rem;
+}
+
+.f-heading{
+
+    font-size: xx-large;
+    color: white;
+
+}
+
+.f-container{
+    background-color: #f4553f;
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+
+    
+}
+
+.f-heading{
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+.f-btn{
+
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.f-cont-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.f-btn:hover{
+     transition: var(--transition);
+    background: linear-gradient(81.57deg, #EE0979 29.59%, #FC5B11 94.75%);
+    color: white;
+}
+
+.flogo{
+    height: 100px;
+    width:100px;
+    background-image: url("/public/ZebuImages/hibootstrap.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.f-logo-cont{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.f-statement{
+
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  
+    text-decoration: none;
+  
+    
+}
+
+a{
+    color:white
+}
+
+
+
+.buy-btn-container{
+   position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#my-btn{
+    right: 20px;
+    z-index: 99;
+    bottom: 20px;
+    position: fixed;
+    border-radius: 30px;
+    display: inline-block;
+    color: var(--whiteColor);
+    background-color: #82b440;
+    padding: 10px 20px 10px 42px;
+    box-shadow: 0 1px 20px 1px #82b440;
+    font-size: 15px;
+    font-weight: 600;
+}

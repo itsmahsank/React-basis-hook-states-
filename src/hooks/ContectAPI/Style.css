@@ -1,0 +1,43 @@
+/* Common Styles */
+.container {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Dark Theme Styles */
+  .container.dark {
+    background-color: #2d3748;
+    color: white;
+  }
+  
+  /* Light Theme Styles */
+  .container.light {
+    background-color: white;
+    color: #2d3748;
+  }
+  
+  .theme-button {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-button:hover {
+    background-color: #3182ce;
+  }
+  
